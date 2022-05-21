@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FBFAF5"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textViewWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/baskervville"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:text="@string/textView" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/textViewModDes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/textViewMod"
+        android:textColor="#AF7F6F"
+        android:textSize="25dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewMod1"
+                    android:layout_width="130dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    app:srcCompat="@drawable/computer_icon_image_768x768" />
+
+                <TextView
+                    android:id="@+id/textViewMod1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="60dp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:text="@string/textViewMod1"
+                    android:textColor="#666C5C"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewMod2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:text="@string/textViewMod2"
+                    android:textColor="#666C5C"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:id="@+id/imageViewMod2"
+                    android:layout_width="130dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="10dp"
+                    app:srcCompat="@drawable/_2_kind_heart" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewMod3"
+                    android:layout_width="130dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="20dp"
+                    app:srcCompat="@drawable/_5_512" />
+
+                <TextView
+                    android:id="@+id/textViewMod3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:textColor="#666C5C"
+                    android:textSize="18dp"
+                    android:text="@string/textViewMod3" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewMod4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:textColor="#666C5C"
+                    android:textSize="18dp"
+                    android:text="C206 Software Development \nProcess" />
+
+                <ImageView
+                    android:id="@+id/imageViewMod4"
+                    android:layout_width="130dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="35dp"
+                    app:srcCompat="@drawable/_72_512" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewMod5"
+                    android:layout_width="130dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    app:srcCompat="@drawable/digital_painting_512" />
+
+                <TextView
+                    android:id="@+id/textViewMod5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="55dp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:textColor="#666C5C"
+                    android:textSize="18dp"
+                    android:text="@string/textViewMod5" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

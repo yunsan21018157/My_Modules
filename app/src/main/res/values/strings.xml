@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Modules</string>
+    <string name="textView">Welcome to the Academy!</string>
+    <string name="textViewMod">Your Modules</string>
+    <string name="textViewMod1">C203 Web Application in PHP</string>
+    <string name="textViewMod2">C235 IT Security and Management</string>
+    <string name="textViewMod3">C218 UI/UX Design for Apps</string>
+    <string name="textViewMod5">C346 Mobile App Development</string>
+    <string name="textViewModDes">Module Description</string>
+    <string name="buttonReturn">Go Back to Your Modules</string>
+    <string name="textview">TextView</string>
+
+</resources>
